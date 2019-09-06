@@ -1,13 +1,17 @@
 // Colors
 //
 $theme: #018574;
-$text: #c6cddb;
-//$light-grey: #494f5c;
-$light-grey: #3C414C;
-//$dark-grey: #3B3E48;
-$dark-grey: #494f5c;
+//$text: #c6cddb;
+$text: #D5DAE4;
+//$light-grey: #494f5c; original
+//$light-grey: #3C414C; variant 1
+$light-grey: #2C3038;
+//$dark-grey: #3B3E48; original
+//$dark-grey: #494f5c; variant 1
+$dark-grey: rgba(44, 48, 56, 0);
 $highlight-grey: #7d828a;
-$midnightblue: #2c3e50;
+$midnightblue: #494f5c;
+$gradientbar: linear-gradient(90deg, rgba(0,0,255,1) 0%, rgba(124,0,193,1) 30%, rgba(195,10,10,1) 100%);
 
 // Fonts
 //
