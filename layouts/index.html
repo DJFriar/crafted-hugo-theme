@@ -8,11 +8,15 @@
 	{{- end -}}
 {{ end }}
 
+
+
 {{ define "main" }}
 	{{- if (or .Site.Params.images .Site.Params.bgImg) }}
+	
 	<div class="bg-img"></div>
 	{{- end }}
 	<div id="spotlight" class="animated fadeIn">
+		<div class="gradientbar" id="top" name="top"></div>
 		<div id="home-center">
 			<h1 id="home-title">{{ .Site.Title }}</h1>
 			{{- with .Site.Params.homeSubtitle }}
